@@ -1,5 +1,8 @@
 
 $(document).ready(function(e) {
+
+	 window.location.replace("https://www.northyellowstoneoutfitters.com");
+	
 	$('.with-hover-text, .regular-link').click(function(e){
 		e.stopPropagation();
 	});
